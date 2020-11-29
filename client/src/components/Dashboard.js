@@ -30,7 +30,6 @@ export default class Users extends Component {
     }
 
     onDelete = (id) => {
-        console.log(id)
         axios.delete(`users/delete/${id}`).then((res) => {
             this.refresh();
         }).catch((err) => {

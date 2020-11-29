@@ -8,7 +8,7 @@ export default class Users extends Component {
         super(props);
         this.state = { usersCollection: [] };
     }
-
+zz
     componentDidMount() {
         axios.get('/users')
             .then(res => {

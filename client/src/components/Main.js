@@ -6,9 +6,6 @@ import Dashboard from "./Dashboard";
 
 const Main = (props) => {
 
-    console.log(props.match.url)
-    console.log(props.match.path)
-
     return(
         <Router>
             <div className="App">
